@@ -140,7 +140,10 @@ session.findById("wnd[0]/tbar[0]/okcd").Text = "/nVL10A"
 session.findById("wnd[0]").sendVKey 0
 'Coleta as informações de pedido e peso
 'SP
+session.findById("wnd[0]/tbar[0]/okcd").Text = "/nVL10A"
+session.findById("wnd[0]").sendVKey 0
 session.findById("wnd[0]/tbar[1]/btn[25]").press
+
 session.findById("wnd[0]/usr/txtERNAM-LOW").Text = ""
 session.findById("wnd[0]/usr/txtERNAM-LOW").SetFocus
 session.findById("wnd[0]/usr/txtERNAM-LOW").caretPosition = 0
@@ -170,6 +173,10 @@ session.findById("wnd[1]/usr/ctxtDY_FILENAME").caretPosition = 6
 session.findById("wnd[1]/tbar[0]/btn[11]").press
 session.findById("wnd[0]/tbar[0]/btn[3]").press
 'Retira
+session.findById("wnd[0]/tbar[0]/okcd").Text = "/nVL10A"
+session.findById("wnd[0]").sendVKey 0
+session.findById("wnd[0]/tbar[1]/btn[25]").press
+
 session.findById("wnd[0]/usr/txtERNAM-LOW").Text = ""
 session.findById("wnd[0]/usr/txtERNAM-LOW").SetFocus
 session.findById("wnd[0]/usr/txtERNAM-LOW").caretPosition = 0
@@ -204,6 +211,10 @@ session.findById("wnd[1]/usr/ctxtDY_FILENAME").caretPosition = 6
 session.findById("wnd[1]/tbar[0]/btn[11]").press
 session.findById("wnd[0]/tbar[0]/btn[3]").press
 'Sabado
+session.findById("wnd[0]/tbar[0]/okcd").Text = "/nVL10A"
+session.findById("wnd[0]").sendVKey 0
+session.findById("wnd[0]/tbar[1]/btn[25]").press
+
 session.findById("wnd[0]/usr/txtERNAM-LOW").Text = ""
 session.findById("wnd[0]/usr/txtERNAM-LOW").SetFocus
 session.findById("wnd[0]/usr/txtERNAM-LOW").caretPosition = 0
@@ -236,6 +247,10 @@ session.findById("wnd[1]/usr/ctxtDY_FILENAME").caretPosition = 6
 session.findById("wnd[1]/tbar[0]/btn[11]").press
 session.findById("wnd[0]/tbar[0]/btn[3]").press
 'Loja
+session.findById("wnd[0]/tbar[0]/okcd").Text = "/nVL10A"
+session.findById("wnd[0]").sendVKey 0
+session.findById("wnd[0]/tbar[1]/btn[25]").press
+
 session.findById("wnd[0]/usr/txtERNAM-LOW").Text = ""
 session.findById("wnd[0]/usr/txtERNAM-LOW").SetFocus
 session.findById("wnd[0]/usr/txtERNAM-LOW").caretPosition = 0
@@ -268,6 +283,10 @@ session.findById("wnd[1]/usr/ctxtDY_FILENAME").caretPosition = 6
 session.findById("wnd[1]/tbar[0]/btn[11]").press
 session.findById("wnd[0]/tbar[0]/btn[3]").press
 'RJ
+session.findById("wnd[0]/tbar[0]/okcd").Text = "/nVL10A"
+session.findById("wnd[0]").sendVKey 0
+session.findById("wnd[0]/tbar[1]/btn[25]").press
+
 session.findById("wnd[0]/usr/txtERNAM-LOW").Text = ""
 session.findById("wnd[0]/usr/txtERNAM-LOW").SetFocus
 session.findById("wnd[0]/usr/txtERNAM-LOW").caretPosition = 0
